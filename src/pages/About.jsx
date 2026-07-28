@@ -1,6 +1,6 @@
 
 
-export default function Shop() {
+export default function About() {
   return (
     <>
       

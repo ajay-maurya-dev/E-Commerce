@@ -6,6 +6,7 @@ import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import HeroSection from "./components/HeroSection";
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
     <>
       <BrowserRouter>
       <Navbar/>
+      <HeroSection/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>

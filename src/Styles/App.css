@@ -1,0 +1,4 @@
+.Active:hover {
+    color: orangered;
+    scale: calc(2);
+}
